@@ -1,0 +1,1 @@
+{% extends 'base.html' %}{% block content %}<div class="container form-card"><h1>Create Farm User Account</h1><form method="post">{% csrf_token %}{{ form.as_p }}<button class="btn">Sign Up</button></form></div>{% endblock %}

@@ -1,0 +1,1 @@
+{% extends 'base.html' %}{% block content %}<div class="container form-card"><h1>Delete {{ object.name }}?</h1><p>This action cannot be undone.</p><form method="post">{% csrf_token %}<button class="btn danger" data-confirm="Delete this listing?">Confirm delete</button></form></div>{% endblock %}
